@@ -1,0 +1,31 @@
+{
+  "name": "tile-checker",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "pretest": "eslint .",
+    "test": "lab test"
+  },
+  "dependencies": {
+    "array-shuffle": "^1.0.0",
+    "async": "^1.5.2",
+    "csv-parser": "^1.9.3",
+    "geojson-extent": "^0.3.2",
+    "geojson-rewind": "^0.1.0",
+    "point-in-big-polygon": "^2.0.0",
+    "proj4": "^2.3.14",
+    "projzh": "^0.5.0",
+    "world-countries": "^1.7.8",
+    "yargs": "^4.4.0"
+  },
+  "devDependencies": {
+    "code": "^2.1.0",
+    "eslint": "^2.3.0",
+    "eslint-config-planet": "^5.0.0",
+    "lab": "^10.2.0"
+  },
+  "eslintConfig": {
+    "extends": "planet"
+  }
+}
